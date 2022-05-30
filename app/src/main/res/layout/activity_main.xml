@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient_background"
+    >
+
+    <EditText
+        android:id="@+id/nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nom Produit"
+        android:inputType="textPersonName"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:minHeight="48dp"
+        android:layout_margin="12dp"
+        android:drawableStart="@drawable/custom_acc_icon"
+        android:drawablePadding="12dp"
+        android:background="@drawable/custom_input"/>
+
+    <EditText
+        android:id="@+id/prix"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Prix Produit"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:layout_margin="12dp"
+        android:drawableStart="@drawable/custom_money_icon"
+        android:drawablePadding="12dp"
+        android:background="@drawable/custom_input"   />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ajouter Produit"
+        android:layout_margin="50dp"
+        android:background="@drawable/btn_bg"
+        android:textColor="@color/white"/>
+</LinearLayout>
